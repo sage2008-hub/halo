@@ -1,0 +1,39 @@
+HALO AI PHONE APP
+=================
+
+This folder is an installable Progressive Web App.
+
+Website and install page:
+https://sagehalo.app
+
+Fallback GitHub Pages URL:
+https://sage2008-hub.github.io/halo/
+
+Download the complete app:
+https://github.com/sage2008-hub/halo/archive/refs/heads/main.zip
+
+If the custom domain is not yet active, point the domain to your hosting
+provider or create the repository named halo under the sage2008-hub account,
+upload this folder to the main branch, and enable GitHub Pages using GitHub
+Actions. The included .github/workflows/deploy-pages.yml will deploy it
+automatically after the first push.
+
+iPhone:
+1. Put this folder on a web host that uses HTTPS.
+2. Open the website in Safari.
+3. Tap Share.
+4. Tap Add to Home Screen.
+5. Tap Add.
+
+Android:
+1. Put this folder on a web host that uses HTTPS.
+2. Open the website in Chrome.
+3. Open the browser menu.
+4. Tap Install app or Add to Home screen.
+
+The app can work offline after its first successful load. Internet access is
+still required for live web, weather, and OpenAI responses.
+
+Opening the HTML directly as a local file is useful for testing, but browser
+security rules prevent install prompts and service-worker caching from working
+until the app is served from a web address.

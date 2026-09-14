@@ -1,0 +1,26 @@
+{
+  "name": "Halo AI Assistant",
+  "short_name": "Halo",
+  "start_url": "https://sagehalo.app/",
+  "scope": "https://sagehalo.app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "description": "A gothic black-and-red AI assistant for your phone.",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/halo-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/halo-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
